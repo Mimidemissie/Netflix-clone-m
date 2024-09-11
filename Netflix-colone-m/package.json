@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Mimidemissie.github.io/ Netflix-clone-m",
   "name": "netflix",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -16,6 +19,7 @@
     "@mui/material": "^6.0.2",
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
+    "github-pages": "^3.0.2",
     "movie": "^1.0.1",
     "movie-trailer": "^3.2.2",
     "react": "^18.3.1",
