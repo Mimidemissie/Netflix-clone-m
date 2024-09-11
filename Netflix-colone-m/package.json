@@ -16,8 +16,13 @@
     "@mui/material": "^6.0.2",
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
+    "movie": "^1.0.1",
+    "movie-trailer": "^3.2.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-youtube": "^10.1.0",
+    "trailer": "^0.10.0",
+    "youtube": "^0.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

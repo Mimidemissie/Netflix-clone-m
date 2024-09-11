@@ -1,19 +1,14 @@
-.footer_outer_container {
+.footer-outer-container {
   background-color: #111;
-  color: grey;
+  color: rgb(250, 247, 247);
   display: flex;
-
-  padding: 20px 0;
   justify-content: center;
 }
-.footer_inner_container {
+.footer-inner-container {
   width: 60%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  /* background-color: red; */
+  color: #fff;
 }
-.footer_icons {
+.footer-icons {
   /* background-color: blue; */
   width: 12%;
   display: flex;
@@ -21,32 +16,35 @@
   margin-left: 10px;
   color: #fff;
 }
-.footer_data {
+.footer-data {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
-.footer_data ul {
+.footer-data ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 12vh;
-  /* background-color:blue; */
 }
-
-.footer_data ul li {
+.footer-data ul li {
   cursor: pointer;
 }
-.service_code {
+.service-code {
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 1px solid #fff;
-  width: 10%;
+  border: 1px solid #fff;
+  width: 15%;
+  padding: 10px; /* added padding */
   margin: 10px 0;
   cursor: pointer;
+  /* background-color: #f0f0f0;  */
+  /* optional background color for better contrast */
+  text-align: center; /* ensures the text is centered inside the div */
+  border-radius: 5px; /* optional for rounded corners */
 }
 .copy-write {
   font-size: 12px;
+  margin-bottom: 10px;
 }
