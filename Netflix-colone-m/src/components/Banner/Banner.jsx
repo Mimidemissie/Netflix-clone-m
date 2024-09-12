@@ -15,7 +15,6 @@ const Banner = () => {
           request.data.results[
             // /Math.floor(Math.random() * request.data.results.length)
             Math.floor(Math.random() * request.data.results.length)
-
           ]
         );
       } catch (error) {
@@ -55,5 +54,3 @@ const Banner = () => {
 };
 
 export default Banner;
-
-
